@@ -11,10 +11,14 @@ namespace FAB.iOS
 using Xamarin.Forms.Platform.WinPhone;
 
 namespace FAB.WinPhone
+#elif WINDOWS_UWP
+using Xamarin.Forms.Platform.UWP;
+
+namespace FAB.UWP
 #endif
 {
-// see: http://windingroadway.blogspot.com/2014/06/xamarinforms-custom-controls-imagesource.html
-    public partial class FloatingActionButtonRenderer
+	// see: http://windingroadway.blogspot.com/2014/06/xamarinforms-custom-controls-imagesource.html
+	public partial class FloatingActionButtonRenderer
     {
         public static void InitControl ()
         {

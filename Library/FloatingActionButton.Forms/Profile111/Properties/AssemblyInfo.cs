@@ -27,3 +27,4 @@ using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("FAB.Droid")]
 [assembly: InternalsVisibleTo("FAB.iOS")]
+[assembly: InternalsVisibleTo("FAB.UWP")]
